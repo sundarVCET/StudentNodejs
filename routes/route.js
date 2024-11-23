@@ -2,7 +2,6 @@ const router = require('express').Router();
 
 const studentController = require('../controllers/student_controller.js')
 
-// Endpoints
 
 router.post('/add/student', studentController.addStudent)
 router.get('/get/student/:rnum',studentController.getStudent)
